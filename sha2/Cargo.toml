@@ -1,5 +1,5 @@
 [package]
-name = "sha2"
+name = "sha2_ce"
 version = "0.10.6"
 description = """
 Pure Rust implementation of the SHA-2 hash function family

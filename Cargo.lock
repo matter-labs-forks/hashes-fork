@@ -218,7 +218,16 @@ dependencies = [
 ]
 
 [[package]]
-name = "sha2"
+name = "sha2-asm"
+version = "0.6.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bf27176fb5d15398e3a479c652c20459d9dac830dedd1fa55b42a77dbcdbfcea"
+dependencies = [
+ "cc",
+]
+
+[[package]]
+name = "sha2_ce"
 version = "0.10.6"
 dependencies = [
  "cfg-if",
@@ -226,15 +235,6 @@ dependencies = [
  "digest",
  "hex-literal",
  "sha2-asm",
-]
-
-[[package]]
-name = "sha2-asm"
-version = "0.6.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf27176fb5d15398e3a479c652c20459d9dac830dedd1fa55b42a77dbcdbfcea"
-dependencies = [
- "cc",
 ]
 
 [[package]]
