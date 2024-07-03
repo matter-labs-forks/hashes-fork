@@ -1,5 +1,5 @@
 [package]
-name = "sha3"
+name = "sha3_ce"
 version = "0.10.6"
 description = "SHA-3 (Keccak) hash function"
 authors = ["RustCrypto Developers"]
