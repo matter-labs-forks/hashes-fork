@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "blake2"
+name = "blake2_ce"
 version = "0.10.6"
 dependencies = [
  "digest",

@@ -1,5 +1,5 @@
 [package]
-name = "blake2"
+name = "blake2_ce"
 version = "0.10.6"
 description = "BLAKE2 hash functions"
 authors = ["RustCrypto Developers"]
